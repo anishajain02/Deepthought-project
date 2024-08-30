@@ -1,0 +1,162 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    background-color: #efecec;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.highlight {
+    color: #3d2fe0; /* Tomato color */
+    font-weight:800;
+    padding: 2px 4px; /* Padding around the text */
+    border-radius: 3px; /* Rounded corners */
+}
+.headerList{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    padding: 0px 0;
+    background-color: #efecec;
+    color: white;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+    color: #333;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 10px;
+    background-color:  #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color:  #022b57;
+}
+
+h2 {
+    font-weight: 650;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    margin: 0; /* Remove default margin */
+    color: #3d2fe0;
+}
+h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a two-column layout */
+    grid-gap: 40px; /* Space between grid items */
+    margin: 50px 10px; /* Optional: Margin around the entire grid */
+    padding: 20px 20px; /* Optional: Padding around the entire grid */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+} 
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    }
+}   
+
+.content {
+    width: 1066px;
+    height: 135px;
+    top: 187px;
+    left: 187px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+span{
+    span {
+        font-weight: bold;
+    }
+}
+.video-section, .threadedit, .structure-you-pointers, .asa-method {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.thread-input textarea, form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.description {
+    background-color:#efecec; /* Light grey background */
+    padding: 10px;            /* Padding inside the div */
+    border-radius: 10px;       /* Rounded corners */
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font */
+    color: #333;              /* Dark grey text color */
+    margin-bottom: 10px;      /* Space below the div */
+}
+
+.description h3 {
+    text-align:initial;
+    font-size: 24px;          /* Font size for the heading */
+    margin-bottom: 0px;      /* Space below the heading */
+    background-color:#efecec;
+    color: black;
+}
+
+.description p { 
+    text-align:center;
+    margin: 0px 0px 10px 0px; /* Space below the paragraph */
+    font-size: 16px;          /* Font size for the paragraph */
+    line-height: 1.5;         /* Line height for better readability */
+}
